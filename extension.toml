@@ -1,0 +1,12 @@
+id = "ros-interface"
+name = "ROS Interface"
+version = "0.1.0"
+schema_version = 1
+authors = ["m1212e"]
+description = "Syntax highlighting for ROS 2 .msg, .srv and .action files"
+repository = "https://github.com/SuperJappie08/tree-sitter-ros-interface"
+
+# The grammar name must match `name` in the grammar's grammar.js, Zed derives the parser symbol from it
+[grammars.ros_interface]
+repository = "https://github.com/SuperJappie08/tree-sitter-ros-interface"
+rev = "9eed3703424441e1c0fec97cb911cfa199bbeef5"
